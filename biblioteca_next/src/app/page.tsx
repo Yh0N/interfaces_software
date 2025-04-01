@@ -34,7 +34,6 @@ export default function Home() {
           <SearchBar onSearch={searchBooks} />
           
           <section className="w-full mt-4">
-            <h3 className="text-xl font-semibold text-center">Categories</h3>
             <div className="grid grid-cols-4 gap-4 mt-4">
               {[
                 { title: "Action", desc: "Thrilling adventures and high-stakes stories" },
@@ -51,7 +50,7 @@ export default function Home() {
           </section>
 
           <section className="mt-8 w-full">
-            <h3 className="text-xl font-semibold text-center">Popular This Week</h3>
+            <h3 className="text-xl font-semibold text-center">Find Books</h3>
             <BookList books={books} />
           </section>
         </main>
